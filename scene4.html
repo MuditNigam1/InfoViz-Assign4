@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS-GY 6313 B: Information Visualization</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<div class="container">
+    <body onload='renderThirdChart()'>
+    <div id="slide-3">
+        <h2>Technological Innovation Drives Productivity Growth and Boosts National Incomes</h2>
+        <ul>
+            <li class="font-size-lg mt-10"><b>Technological Innovation</b>— broadly encompassing physical machinery, ideas, knowledge, and processes — enables workers to become significantly more productive.</li>
+            <li class="font-size-lg mt-10">This enhanced productivity leads to higher incomes and eventually reduces working hours.</li>
+            <li class="font-size-lg mt-10">A clear example of technology's impact on productivity is in agriculture, where advancements in machinery, crop varieties, fertilizers, and land management have greatly increased farmers' output.</li>
+            <li class="font-size-lg mt-10">For instance, in the US, farm production per labor hour grew nearly 16-fold between 1948 and 2011. This productivity growth has allowed the US to sustain a growing population while fewer people work in agriculture.</li>
+            <li class="font-size-lg mt-10">Additionally, evidence suggests that shorter working hours can help maintain higher productivity, creating a self-reinforcing link between productivity and working hours.</li>
+            <li class="font-size-lg mt-30">Try selecting countries from the dropdown filter to explore how their productivity evolved from 1950 to 2017.</li>
+        </ul>
+        Select Country: <select id="select-country"></select>
+        <div id="chart-3">
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-primary btn-s" href="scene3.html" role="button">Previous</a>
+        <a class="btn btn-primary btn-s" href="scene5.html" role="button">Next</a>
+    </p>
+</div>
+</body>
+</html>

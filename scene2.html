@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS-GY 6313 B: Information Visualization</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload='renderFirstChart()'>
+<div class="container">
+    <div id="slide-1">
+        <h2>Annual Working Hours Compared to GDP per Capita</h2>
+        <ul>
+            <li class="font-size-lg mt-10">Employees in wealthier countries generally work fewer hours compared to those in less affluent nations.</li>
+            <li class="font-size-lg mt-10">This is typically because wealthier countries have economies that allow workers to generate higher value per hour of work.</li>
+            <li class="font-size-lg mt-10">Greater productivity per hour enables workers to earn higher incomes while working fewer hours.</li>
+            <li class="font-size-lg mt-10">This data challenges our understanding of economic progress over the past century and highlights the nature of inequality among countries.</li>
+            <li class="font-size-lg mt-10">The vertical axis shows the <i>average hours</i> worked per year by a resident of the country <i>per year</i>. The horizontal axis shows the <i>GDP per capita</i></li>
+            <li class="font-size-lg mt-30">Hover over different countries to view their <b>total annual hours worked</b> and <b>GDP per capita</b>:</li>
+        </ul>
+        <div id="chart-1">
+        </div>
+
+    </div>
+    <p>
+        <a class="btn btn-primary btn-s" href="index.html" role="button">Previous</a>
+        <a class="btn btn-primary btn-s" href="scene3.html" role="button">Next</a>
+    </p>
+</div>
+</body>
+</html>

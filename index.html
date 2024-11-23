@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS-GY 6313 B: Information Visualization</title>
+    <h1> CS-GY 6313 B: Information Visualization </h1>
+    <h2> Narrative Visualization </h2>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body onload='renderFirstChart()'>
+<div class="container">
+    <div id="index-slide">
+        <h2>Exploring Labor Productivity and Working Hours Across Countries</h2>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-4 col-sm-3 col-xs-6">
+                    <h3>Myanmar</h3>
+                    <img src="images/myanmar_flag.png" class="img-rectangle" alt="Myanmar Flag" width="300" height="180">
+                </div>
+                <div class="col-lg-4 col-sm-3 col-xs-6">
+                    <h3>France</h3>
+                    <img src="images/france_flag.png" class="img-rectangle" alt="France Flag" width="300" height="180">
+                </div>
+                <div class="col-lg-4 col-sm-3 col-xs-6">
+                    <h3>USA</h3>
+                    <img src="images/usa_flag.png" class="img-rectangle" alt="USA Flag" width="300" height="180">
+                </div>
+            </div>
+
+            <ul>
+                <li class="font-size-lg mt-50">Countries such as Myanmar have among the lowest GDP per capita yet the highest working hours.
+                </li>
+                <li class="font-size-lg mt-30">In Myanmar, the average worker logs about 2,400 hours annually, which is nearly 900 hours more than the 1,500 hours worked on average in France.
+                </li>
+                <li class="font-size-lg mt-30">The additional 900 hours worked by Myanmar employees translates to longer workdays and significantly fewer holidays.
+                </li>
+            </ul>
+            <h4 class="mt-50">
+
+            </h4>
+            <h4 class="mt-50">
+                The following slideshow examines the annual working hours across various countries, comparing their labor productivity and GDP per capita growth over the years.
+            </h4>            
+            <p class="mt-10"><a class="btn btn-primary btn-s" href="scene2.html" role="button">Next</a></p>
+        </div>
+    </div>
+    <div class="mt-30" style="text-align: center;">
+        <em>Data Source: https://ourworldindata.org/</em>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>>CS-GY 6313 B: Information Visualization</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload='renderFourthChart()'>
+<div class="container">
+    <div id="slide-4">
+        <h2>Key Takeaways</h2>
+        <div>
+            <ul>
+                <li class="font-size-lg mt-10">Workers in less affluent countries often work significantly longer hours compared to those in wealthier nations.</li>
+                <li class="font-size-lg mt-10">This highlights important insights about economic progress over the past century and underscores the ongoing disparities between countries today.</li>
+                <li class="font-size-lg mt-10">Residents in countries like Myanmar and Cambodia face dual challenges: financial poverty and leisure poverty, driven by low productivity economies that necessitate longer working hours.</li>
+                <li class="font-size-lg mt-10">This lack of spare time often limits opportunities for self-improvement, such as pursuing education or skill development.</li>
+                <li class="font-size-lg mt-30 alert alert-warning">The data reveals that the disparity in prosperity is not due to differences in work ethic, but rather differences in <b>circumstances</b> and <b>opportunities</b>.</li>
+                <li class="font-size-lg mt-30">Hover over different countries to see their <b>total population</b> along with their <b>GDP per capita</b>:</li>
+            </ul>
+            <p><em>Countries shaded in black indicate missing data.</em></p>
+        </div>
+        <svg id="chart-4" width="1000" height="640"></svg>
+
+    <p>
+        <a class="btn btn-primary btn-s" href="scene4.html" role="button">Previous</a>
+        <a class="btn btn-primary btn-s" href="index.html" role="button">First Slide</a>
+    </p>
+</div>
+</body>
+</html>

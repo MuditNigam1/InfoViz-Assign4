@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS-GY 6313 B: Information Visualization</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"
+            integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload='renderSecondChart()'>
+<div class="container">
+    <div id="slide-2">
+        <h2>Highly productive economies enable their citizens to work fewer hours</h2>
+        <ul>
+            <li class="font-size-lg">The primary factor behind rising incomes and reduced working hours is <b>productivity growth</b>. To understand working hours, the key metric is <b>labor productivity</b>: the economic value (e.g., money earned) generated per hour of work.</li>
+            <li class="font-size-lg mt-10">Labor productivity, at its core, reflects outputs such as the number of loaves a baker produces in an hour or the number of cars a factory worker assembles in the same time frame.</li>
+            <li class="font-size-lg mt-10">Higher labor productivity generally correlates with fewer working hours. This relationship is depicted in the chart, where labor productivity is shown on the horizontal axis, and annual working hours are on the vertical axis.</li>
+            <li class="font-size-lg mt-10">However, this relationship is not absolute. For instance, countries like <b>Singapore</b> and the <b>USA</b> exhibit very high productivity levels but still have longer working hours compared to similarly productive nations.</li>
+            <li class="font-size-lg mt-10">The vertical axis represents the <i>average hours</i> worked annually per resident of each country, while the horizontal axis illustrates the <i>average productivity</i> (in International$ earned per hour).</li>
+            <li class="font-size-lg mt-30">Hover over various countries to explore their <b>total annual hours worked</b> alongside their <b>average productivity ($ earned per hour)</b>:</li>
+        </ul>
+        <div id="chart-2">
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-primary btn-s" href="scene2.html" role="button">Previous</a>
+        <a class="btn btn-primary btn-s" href="scene4.html" role="button">Next</a>
+    </p>
+</div>
+</body>
+</html>
